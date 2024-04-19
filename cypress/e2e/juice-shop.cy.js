@@ -10,7 +10,7 @@ describe("Juice-shop scenarios", () => {
     });
 
     it.only("Login", () => {
-      // Click Account button
+      // Click Account button 
       HomePage.accountButton.click();
       // Click Login button
       HomePage.loginButton.click();
