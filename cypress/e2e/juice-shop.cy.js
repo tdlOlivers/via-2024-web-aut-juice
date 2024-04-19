@@ -20,7 +20,7 @@ describe("Juice-shop scenarios", () => {
       LoginPage.passwordField.type("demo");
       // Click Log in
       LoginPage.loginButton.click();
-      // Click Account button
+      // Click Account button 
       HomePage.accountButton.click();
       // Validate that "demo" account name appears in the menu section
       HomePage.userEmailOutput.should("contain.text", "demo");
